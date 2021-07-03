@@ -1,0 +1,743 @@
+<!--Doctype: it is not an html tag,it is basically an instructions
+to the web browser about the html language version used 
+in a webpage -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- this language attribute helps search engines and browsers
+to know about the language used in a webpage -->
+<head>
+    <!-- meta information is data about html document
+        meta data is not displayed, meta data is typically
+        define the document title, character set, styles, links,
+        scripts and other meta information -->
+    <!--required meta tags-->
+    <meta charset="UTF-8">
+     <!-- to display webpage correctly, 
+        so that web browser to know which 
+        character encoding to used -->
+    <!-- Basic SEO -->
+    <meta name="description" content="Creative website development with html5, css3, jQuery & bootstrap framework">
+    <meta name="keywords" content="HTML5, CSS3, JQuery, Bootstrap, Web Design, Web Development, Responsive website, Creative website">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- this to ensure that our webpage should be compatible with
+        the latest IE-edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this meta tags gives the browser instructions on how to control
+        the pages dimensions and scalling, width part set the width of the 
+        page to follow the screen width of the device and initial-scale=1 
+        set the initail zoom level when the page is first loaded by the
+        browser -->
+    <!-- title -->
+    <title>Food Discounted Dealz</title>
+    <!--favicon-->
+    <link rel="shortcut icon" href="img/favicon/favicon.png">
+    <!-- google-font-Railway -->
+	<link href="https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700" rel="stylesheet">
+	<!-- google-font-Open-Sans -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:100,200,300,400,500,600,700" rel="stylesheet">
+	<!-- fontawesome -->
+    <link rel="stylesheet" href="css/font-awesome/css/all.css">
+    <!-- fontawesome CDN -->
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous"> -->
+    <!-- bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
+	<!-- Owl Carousel CSS -->
+    <link rel="stylesheet" href="css/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl-carousel/owl.theme.default.min.css">
+	<!-- Magnific Popup -->
+    <link rel="stylesheet" href="css/magnific-popup/magnific-popup.min.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="css/animate/animate.min.css">
+	<!-- custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!--Preloader-->
+    <div id="preloader">
+        <div id="status">&nbsp;</div>
+    </div>
+    <!--Header-->
+    <header>
+        <nav class="navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="site-nav-wrapper">
+
+                    <div class="navbar-header">
+                        <!--Mobile Menu Open Button-->
+                        <span id="mobile-nav-open-btn">&#9776;</span>
+
+                        <!--Logo-->
+                        <a class="navbar-brand smooth-scroll logo-edit" href="#home">
+                            <img src="img/logo/logo.jpg" alt="logo">
+                        </a>
+                    </div>
+
+                    <!--Main Menu-->
+                    <div class="container menu-edit">
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav pull-right list-edit">
+                                <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                <li><a class="smooth-scroll" href="#team">Mcdonald's</a></li>
+                                <li><a class="smooth-scroll" href="#about">Subway</a></li>
+                                <li><a class="smooth-scroll" href="#clients">KFC</a></li>
+                                <li><a class="smooth-scroll" href="#portfolio">BK</a></li>
+                                <li><a class="smooth-scroll" href="#pricing">OPTP</a></li>
+                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!--Mobile Menu-->
+                    <div id="mobile-nav">
+                        <!--Mobile Menu Close Button-->
+                        <span id="mobile-nav-close-btn">&times;</span>
+
+                        <div id="mobile-nav-content">
+                            <ul class="nav">
+                                <li><a class="smooth-scroll" href="#home">Home</a></li>
+                                <li><a class="smooth-scroll" href="#team">Mcdonald's</a></li>
+                                <li><a class="smooth-scroll" href="#about">Subway</a></li>
+                                <li><a class="smooth-scroll" href="#clients">KFC</a></li>
+                                <li><a class="smooth-scroll" href="#portfolio">BK</a></li>
+                                <li><a class="smooth-scroll" href="#pricing">OPTP</a></li>
+                                <li><a class="smooth-scroll" href="#contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--Header Ends-->
+    <!--Home-->
+    <section id="home">
+        <!--Background Video-->
+        <video id="home-bg-video" poster="video/logo.png" autoplay loop muted>
+            <source src="video/ovideo.mp4" type="video/mp4">
+        </video>
+        <!--Overlay-->
+        <div id="home-overlay"></div>
+        <!--Home Content-->
+        <div id="home-content">
+            <div id="home-content-inner" class="text-center">
+                <div id="home-heading">
+                    <h1 id="home-heading-1">Food</h1> <br>
+                    <h1 id="home-heading-2">Discounted <span>Dealz</span></h1>
+                </div>
+                <div id="home-text">
+                    <p>We inform you, the latest dealz of World's leading Food Brands</p>
+                </div>
+                <div id="home-btn">
+                    <a class="btn btn-general btn-home" href="#team" title="Start Now" role="button">Start Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Home Ends-->
+    <!--Macdonald's-->
+    <section id="team">
+        <div class="content-box-lg">
+            <div class="container">
+                <!--Info-->
+                <div class="row">
+                    <!--Description-->
+                    <div class="col-md-6">
+                        <div id="team-left">
+                            <div class="vertical-heading">
+                                <h5>McDonald's</h5>
+                                <h2>See Our <br><strong>Delicious</strong> Dealz</h2>
+                            </div>
+                            <p>McDonald's Corporation is an American fast food company,
+                            founded in 1940 as a restaurant operated by Richard and Maurice McDonald, in San Bernardino, California,
+                            United States.</p>
+                        </div>
+                    </div>
+                    <!--Dealz-->
+                    <div class="col-md-6">
+                        <div id="team-members" class="owl-carousel owl-theme">
+                            <!--Deal 01-->
+                            <div class="team-member">
+                                <img src="img/mac/deal1.png" alt="Deal 1" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>McDonald's</h6>
+                                        <p>Deal-1</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Deal 02-->
+                            <div class="team-member">
+                                <img src="img/mac/deal2.jpg" alt="Deal 2" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>McDonald's</h6>
+                                        <p>Deal-2</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Deal 03-->
+                            <div class="team-member">
+                                <img src="img/mac/deal3.png" alt="Deal 3" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>McDonald's</h6>
+                                        <p>Deal-3</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Deal 04-->
+                            <div class="team-member">
+                                <img src="img/mac/deal4.png" alt="Deal 4" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>McDonald's</h6>
+                                        <p>Deal-4</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Deal 05-->
+                            <div class="team-member">
+                                <img src="img/mac/deal5.jpg" alt="Deal 5" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>McDonald's</h6>
+                                        <p>Deal-5</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--Deal 06-->
+                            <div class="team-member">
+                                <img src="img/mac/deal6.png" alt="Deal 6" class="img-responsive">
+                                <div class="team-member-overlay">
+                                    <div class="team-member-info text-center">
+                                        <h6>McDonald's</h6>
+                                        <p>Deal-6</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="progress-elements">
+
+                    <!--Progress Bars-->
+                    <div class="row wow fadeInUp">
+
+                        <div class="col-md-6 col-sm-6">
+
+                            <!--Breakfast-->
+                            <div class="skill">
+                                <h4>Breakfast</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                        <span>95%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+
+                            <!--Desserts-->
+                            <div class="skill">
+                                <h4>Desserts</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+
+                            <!--Happy Menu-->
+                            <div class="skill">
+                                <h4>Happy Menu</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                        <span>75%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+
+                            <!--Burgers-->
+                            <div class="skill">
+                                <h4>Burgers</h4>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 0%;">
+                                        <span>90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Macdonald's Ends-->
+    <!--Subway-->
+    <section id="about">
+        <!--Part-01-->
+        <div id="about-01">
+            <div class="content-box-lg">
+                <div class="container">
+                    <div class="row">
+                        <!--Left Side-->
+                        <div class="col-md-6">
+                            <div id="about-left">
+                                <div class="vertical-heading">
+                                    <h5>Subway</h5>
+                                    <h2>Some <strong>Details</strong><br>About Us</h2>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Right Side-->
+                        <div class="col-md-6">
+                            <div id="about-right">
+                                <p>Subway is an American privately-held restaurant franchise that primarily sells submarine sandwiches and 
+                                salads. It is one of the fastest-growing franchises in the world and, as of October 2019, had 41,512 locations 
+                                in more than 100 countries. More than half its locations are in the United States.<br> <br>
+                                Subway's international headquarters are in Milford, Connecticut, with five regional centers supporting the 
+                                company's international operations. The regional offices for European franchises are located in Amsterdam 
+                                (Netherlands); the Australian and New Zealand locations are supported from Brisbane (Australia); the Asian 
+                                locations are supported from offices in Beirut (Lebanon) and Singapore; and the Latin American support center 
+                                is in Miami.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Part-01 Ends-->
+        <!--Part-02-->
+        <div id="about-02">
+            <div class="content-box-md">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <img src="img/subway/d1.jpg" alt="Deal-1" width="300" height="500">
+                                <h3>Deal 1</h3>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <img src="img/subway/d2.jpg" alt="Deal-2" width="300" height="500">
+                                <h3>Deal 2</h3>
+                                <hr>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="about-item text-center">
+                                <img src="img/subway/d3.jpg" alt="Deal-3" width="300" height="500">
+                                <h3>Deal 3</h3>
+                                <hr>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Part-02 Ends-->
+    </section>
+    <!--Subway Ends-->
+    <!--KFC-->
+    <section id="clients">
+        <div class="content-box-sm">
+            <div class="contaniner">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="horizontal-heading">
+                            <h5>Kentucky Fried Chicken</h5>
+                            <h2>Our Happy <strong>Menu</strong></h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row wow bounceInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="col-md-12">
+                        <div id="clients-list" class="owl-carousel owl-theme">
+                            <!--Deal 1-->
+                            <div class="client">
+                                <img src="img/kfc/d1.jpg" class="img-responsive" alt="Deal">
+                            </div>
+                            <!--Deal 2-->
+                            <div class="client">
+                                <img src="img/kfc/d2.jpg" class="img-responsive" alt="Deal">
+                            </div>
+                            <!--Deal 3-->
+                            <div class="client">
+                                <img src="img/kfc/d3.jpg" class="img-responsive" alt="Deal">
+                            </div>
+                            <!--Deal 4-->
+                            <div class="client">
+                                <img src="img/kfc/d4.jpg" class="img-responsive" alt="Deal">
+                            </div>
+                            <!--Deal 5-->
+                            <div class="client">
+                                <img src="img/kfc/d5.png" class="img-responsive" alt="Deal">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--KFC Ends-->
+    <!--BK-->
+    <section id="portfolio">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 wow slideInLeft">
+                        <div class="vertical-heading">
+                            <h5>Burger King</h5>
+                            <h2>Our <br> Amazing <strong>Deals</strong></h2>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!--BK Items Wrapper-->
+            <section id="portfolio-wrapper" class="wow fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div class="container-fluid">
+                    <div class="row no-gutters">
+                        <div id="isotope-container">
+                            <div class="col-md-3 col-sm-6 col-xs-12 desktop">
+                                <!--Deal 1-->
+                                <div class="portfolio-item">
+                                    <a href="img/bk/Deal-1.jpg">
+                                        <img src="img/bk/Deal-1.jpg" class="img-responsive" alt="Deals">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+                                                <!--Item header-->
+                                                <h3>Special</h3>
+                                                <!--Item Strips-->
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 desktop">
+                                <!--Deal 2-->
+                                <div class="portfolio-item">
+                                    <a href="img/bk/Deal-2.jpg">
+                                        <img src="img/bk/Deal-2.jpg" class="img-responsive" alt="Deals">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+                                                <!--Item header-->
+                                                <h3>Discounted</h3>
+                                                <!--Item Strips-->
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 desktop">
+                                <!--Deal 3-->
+                                <div class="portfolio-item">
+                                    <a href="img/bk/Deal-3.jpg">
+                                        <img src="img/bk/Deal-3.jpg" class="img-responsive" alt="Deals">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+                                                <!--Item header-->
+                                                <h3>Family</h3>
+                                                <!--Item Strips-->
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 desktop">
+                                <!--Deal 4-->
+                                <div class="portfolio-item">
+                                    <a href="img/bk/Deal-4.jpg">
+                                        <img src="img/bk/Deal-4.jpg" class="img-responsive" alt="Deals">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+                                                <!--Item header-->
+                                                <h3>Standard</h3>
+                                                <!--Item Strips-->
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 desktop">
+                                <!--Deal 5-->
+                                <div class="portfolio-item">
+                                    <a href="img/bk/Deal-5.jpg">
+                                        <img src="img/bk/Deal-5.jpg" class="img-responsive" alt="Deals">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+                                                <!--Item header-->
+                                                <h3>Special</h3>
+                                                <!--Item Strips-->
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 desktop">
+                                <!--Deal 6-->
+                                <div class="portfolio-item">
+                                    <a href="img/bk/Deal-6.jpg">
+                                        <img src="img/bk/Deal-6.jpg" class="img-responsive" alt="Deals">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+                                                <!--Item header-->
+                                                <h3>Discounted</h3>
+                                                <!--Item Strips-->
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 desktop">
+                                <!--Deal 7-->
+                                <div class="portfolio-item">
+                                    <a href="img/bk/Deal-7.jpg">
+                                        <img src="img/bk/Deal-7.jpg" class="img-responsive" alt="Deals">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+                                                <!--Item header-->
+                                                <h3>Family</h3>
+                                                <!--Item Strips-->
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6 col-xs-12 desktop">
+                                <!--Deal 8-->
+                                <div class="portfolio-item">
+                                    <a href="img/bk/Deal-8.jpg">
+                                        <img src="img/bk/Deal-8.jpg" class="img-responsive" alt="Deals">
+                                        <div class="portfolio-item-overlay">
+                                            <div class="portfolio-item-details text-center">
+                                                <!--Item header-->
+                                                <h3>Standard</h3>
+                                                <!--Item Strips-->
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </section>
+    <!--BK Ends-->
+    <!--OPTP-->
+    <section id="pricing">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center wow slideInDown">
+                        <div class="horizontal-heading">
+                            <h5>OPTP</h5>
+                            <h2>Our Major Deals</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 wow fadeInLeft">
+                        <!--Deal 1-->
+                        <div class="pricing-table">
+                            <div class="type">
+                                <h4>Sea Food</h4>
+                            </div>
+                            <div class="price">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <h2><span class="dollar">&#8360;</span> 2,499</h2>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <p>You will get all these delicious items with this great price. Get it now!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="package">
+                                <li><i class="fa fa-check"></i>Fish Burgers</li>
+                                <li><i class="fa fa-check"></i>Pizza Fries</li>
+                                <li><i class="fa fa-check"></i>Nuggets</li>
+                                <li><i class="fa fa-check"></i>Wings</li>
+                                <li><i class="fa fa-check"></i>Sauces</li>
+                            </ul>
+                            <div id="pricing-btn-01">
+                                <a class="btn btn-general btn-yellow" href="#" title="Get Deal" role="button">Get Deal</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInUp" data-wow-duration="3s">
+                        <!--Deal 2-->
+                        <div class="pricing-table black">
+                            <div class="type">
+                                <h4>Dosti Special</h4>
+                            </div>
+                            <div class="price">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <h2><span class="dollar">&#8360;</span> 1,599</h2>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <p>You will get all these delicious items with this great price. Get it now!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="package">
+                                <li><i class="fa fa-check"></i>Zinger Burgers</li>
+                                <li><i class="fa fa-check"></i>Fries</li>
+                                <li><i class="fa fa-check"></i>Wings</li>
+                                <li><i class="fa fa-check"></i>Sauces</li>
+                                <li><i class="fa fa-check"></i>Drinks</li>
+                            </ul>
+                            <div id="pricing-btn-02">
+                                <a class="btn btn-general btn-white" href="#" title="Get Deal" role="button">Get Deal</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wow fadeInRight">
+                        <!--Deal 3-->
+                        <div class="pricing-table">
+                            <div class="type">
+                                <h4>Triple-Philly</h4>
+                            </div>
+                            <div class="price">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-4 col-xs-4">
+                                        <h2><span class="dollar">&#8360;</span> 1,999</h2>
+                                    </div>
+                                    <div class="col-md-8 col-sm-8 col-xs-8">
+                                        <p>You will get all these delicious items with this great price. Get it now!</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <ul class="package">
+                                <li><i class="fa fa-check"></i>Beef Burgers</li>
+                                <li><i class="fa fa-check"></i>Veggie Salad</li>
+                                <li><i class="fa fa-check"></i>Leg Quarter</li>
+                                <li><i class="fa fa-check"></i>Drinks</li>
+                                <li><i class="fa fa-check"></i>Sauces</li>
+                            </ul>
+                            <div id="pricing-btn-03">
+                                <a class="btn btn-general btn-yellow" href="#" title="Get Deal" role="button">Get Deal</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--OPTP Ends-->
+    <!--Contact-->
+    <section id="contact">
+        <div class="content-box-md">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <!--Contact Left-->
+                        <div id="contact-left">
+                            <div class="vertical-heading">
+                                <h5>Who We Are</h5>
+                                <h2>Get <br> In <strong> Touch </strong></h2>
+                            </div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam minima, quo totam, mollitia commodi eaque aliquid.</p>
+                            <div id="offices">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="office">
+                                            <h4>Islamabad</h4>
+                                            <ul class="office-details">
+                                                <li><i class="fa fa-mobile"></i><span>+(051) 111 448 800</span></li>
+                                                <li><i class="fa fa-envelope"></i><span>support@fddealz.com</span></li>
+                                                <li><i class="fa fa-map-marker-alt"></i><span>Main Ghazi Rd, Khuda Buksh, Islamabad.</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="office">
+                                            <h4>Lahore</h4>
+                                            <ul class="office-details">
+                                                <li><i class="fa fa-mobile"></i><span>+(042) 374 98 533</span></li>
+                                                <li><i class="fa fa-envelope"></i><span>support@fddealz.com</span></li>
+                                                <li><i class="fa fa-map-marker-alt"></i><span>25 Mohlanwal Rd, Westwood Colony, Lahore.</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Contact Right-->
+                    <div class="col-md-6">
+                        <div id="contact-right">
+                            <h3>Contact Us</h3>
+                            <form name="form">
+                                <div id="errorBox"></div>
+                                <input type="text" name="Name" placeholder="First Name" class="form-control">
+                                <input type="text" name="LastName" placeholder="Last Name" class="form-control">
+                                <input type="email" name="Email" placeholder="Your Email Address" class="form-control">
+                                <input type="email" name="enterEmail" placeholder="Re-enter Email Address" class="form-control">
+                                <input type="password" name="Password" placeholder="Enter Your Password" class="form-control">
+                                <div id="send-btn">
+                                    <p class="btn btn-lg-general btn-white" id="sign_user" onclick="Submit()">Sign Up</p>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Contact Ends-->
+    <!--Footer-->
+    <footer class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Copyright &copy; 2019 All Rights Reserved By <span>FD Dealz</span>.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--Footer Ends-->
+
+
+    <!-- JQuery -->
+	<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+	<!-- bootstrap js -->
+	<script src="js/bootstrap/bootstrap.min.js"></script>
+	<!-- Owl Carousel JS -->
+	<script src="js/owl-carousel/owl.carousel.min.js"></script>
+	 <!-- Waypoints -->
+	<script src="js/waypoints/jquery.waypoints.min.js"></script>
+	<!-- Isotope -->
+	<script src="js/isotope/isotope.pkgd.min.js"></script>
+	<!-- Magnific Popup -->
+	<script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Easing -->
+    <script src="js/easing/jquery.easing.1.3.min.js"></script>
+    <!-- WOW JS -->
+    <script src="js/wow/wow.min.js"></script> 
+	<!-- Custom Js -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- custom validation-js -->
+    <script src="js/validation.js "></script>
+</body>
+</html>
